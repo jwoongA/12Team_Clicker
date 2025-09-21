@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7eacc0970ec29348aad0e9d54b3179f, type: 3}
+  m_Name: StoneSword
+  m_EditorClassIdentifier: 
+  weaponName: "\uB3CC\uAC80"
+  weaponLevel: 0
+  weaponStats:
+  - weaponStatType: 0
+    baseValue: 10
+  - weaponStatType: 1
+    baseValue: 10
+  weaponSprite: {fileID: 21300000, guid: 20fbdafbcb116a847bc11e63244f1595, type: 3}
+  maxLevel: 10
+  damageIncreasePerLevel: 5
+  critChanceIncreasePerLevel: 1
+  purchaseCost: 100
+  upgradeCost: 100

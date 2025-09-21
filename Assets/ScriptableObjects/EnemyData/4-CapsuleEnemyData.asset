@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711f2d8fd4437db4bab63cf847248d8f, type: 3}
+  m_Name: 4-CapsuleEnemyData
+  m_EditorClassIdentifier: 
+  enemyName: "\uCEA1\uC290\uD615 \uAD34\uBB3C"
+  baseHp: 120
+  baseGold: 20
+  basePoint: 8
+  enemySprite: {fileID: -9095717837082945937, guid: 9c5902eec45f6604bb4db1292e63625d, type: 3}
+  hitSprite: {fileID: -9095717837082945937, guid: 9c5902eec45f6604bb4db1292e63625d, type: 3}

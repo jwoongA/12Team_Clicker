@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e3e63ca351b47408f5211b40f068b6, type: 3}
+  m_Name: CritMultiplierUpgradeData
+  m_EditorClassIdentifier: 
+  upgradeName: Crit Multiplier
+  upgradeType: 0
+  levelDataList:
+  - level: 0
+    value: 0
+    cost: 0
+  - level: 1
+    value: 50
+    cost: 10
+  - level: 2
+    value: 100
+    cost: 20
+  - level: 3
+    value: 150
+    cost: 30
+  - level: 4
+    value: 200
+    cost: 40
+  - level: 5
+    value: 250
+    cost: 50
+  - level: 6
+    value: 300
+    cost: 60
+  - level: 7
+    value: 350
+    cost: 70
+  - level: 8
+    value: 400
+    cost: 80
+  - level: 9
+    value: 450
+    cost: 90
+  - level: 10
+    value: 500
+    cost: 100
+  - level: 11
+    value: 550
+    cost: 110
+  - level: 12
+    value: 600
+    cost: 120
+  - level: 13
+    value: 650
+    cost: 130
+  - level: 14
+    value: 700
+    cost: 140
+  - level: 15
+    value: 750
+    cost: 150
+  - level: 16
+    value: 800
+    cost: 160
+  - level: 17
+    value: 850
+    cost: 170
+  - level: 18
+    value: 900
+    cost: 180
+  - level: 19
+    value: 950
+    cost: 190
+  - level: 20
+    value: 1000
+    cost: 200
+  - level: 21
+    value: 1050
+    cost: 210
+  - level: 22
+    value: 1100
+    cost: 220
+  - level: 23
+    value: 1150
+    cost: 230
+  - level: 24
+    value: 1200
+    cost: 240
+  - level: 25
+    value: 1250
+    cost: 250
+  - level: 26
+    value: 1300
+    cost: 260
+  - level: 27
+    value: 1350
+    cost: 270
+  - level: 28
+    value: 1400
+    cost: 280
+  - level: 29
+    value: 1450
+    cost: 290
+  - level: 30
+    value: 1500
+    cost: 300
+  - level: 31
+    value: 1550
+    cost: 310
+  - level: 32
+    value: 1600
+    cost: 320
+  - level: 33
+    value: 1650
+    cost: 330
+  - level: 34
+    value: 1700
+    cost: 340
+  - level: 35
+    value: 1750
+    cost: 350
+  - level: 36
+    value: 1800
+    cost: 360
+  - level: 37
+    value: 1850
+    cost: 370
+  - level: 38
+    value: 1900
+    cost: 380
+  - level: 39
+    value: 1950
+    cost: 390
+  - level: 40
+    value: 2000
+    cost: 400
+  - level: 41
+    value: 2050
+    cost: 410
+  - level: 42
+    value: 2100
+    cost: 420
+  - level: 43
+    value: 2150
+    cost: 430
+  - level: 44
+    value: 2200
+    cost: 440
+  - level: 45
+    value: 2250
+    cost: 450
+  - level: 46
+    value: 2300
+    cost: 460
+  - level: 47
+    value: 2350
+    cost: 470
+  - level: 48
+    value: 2400
+    cost: 480
+  - level: 49
+    value: 2450
+    cost: 490
+  - level: 50
+    value: 2500
+    cost: 500
+  - level: 51
+    value: 2550
+    cost: 510
+  - level: 52
+    value: 2600
+    cost: 520
+  - level: 53
+    value: 2650
+    cost: 530
+  - level: 54
+    value: 2700
+    cost: 540
+  - level: 55
+    value: 2750
+    cost: 550
+  - level: 56
+    value: 2800
+    cost: 560
+  - level: 57
+    value: 2850
+    cost: 570
+  - level: 58
+    value: 2900
+    cost: 580
+  - level: 59
+    value: 2950
+    cost: 590
+  - level: 60
+    value: 3000
+    cost: 600
+  - level: 61
+    value: 3050
+    cost: 610
+  - level: 62
+    value: 3100
+    cost: 620
+  - level: 63
+    value: 3150
+    cost: 630
+  - level: 64
+    value: 3200
+    cost: 640
+  - level: 65
+    value: 3250
+    cost: 650
+  - level: 66
+    value: 3300
+    cost: 660
+  - level: 67
+    value: 3350
+    cost: 670
+  - level: 68
+    value: 3400
+    cost: 680
+  - level: 69
+    value: 3450
+    cost: 690
+  - level: 70
+    value: 3500
+    cost: 700
+  - level: 71
+    value: 3550
+    cost: 710
+  - level: 72
+    value: 3600
+    cost: 720
+  - level: 73
+    value: 3650
+    cost: 730
+  - level: 74
+    value: 3700
+    cost: 740
+  - level: 75
+    value: 3750
+    cost: 750
+  - level: 76
+    value: 3800
+    cost: 760
+  - level: 77
+    value: 3850
+    cost: 770
+  - level: 78
+    value: 3900
+    cost: 780
+  - level: 79
+    value: 3950
+    cost: 790
+  - level: 80
+    value: 4000
+    cost: 800
+  - level: 81
+    value: 4050
+    cost: 810
+  - level: 82
+    value: 4100
+    cost: 820
+  - level: 83
+    value: 4150
+    cost: 830
+  - level: 84
+    value: 4200
+    cost: 840
+  - level: 85
+    value: 4250
+    cost: 850
+  - level: 86
+    value: 4300
+    cost: 860
+  - level: 87
+    value: 4350
+    cost: 870
+  - level: 88
+    value: 4400
+    cost: 880
+  - level: 89
+    value: 4450
+    cost: 890
+  - level: 90
+    value: 4500
+    cost: 900
+  - level: 91
+    value: 4550
+    cost: 910
+  - level: 92
+    value: 4600
+    cost: 920
+  - level: 93
+    value: 4650
+    cost: 930
+  - level: 94
+    value: 4700
+    cost: 940
+  - level: 95
+    value: 4750
+    cost: 950
+  - level: 96
+    value: 4800
+    cost: 960
+  - level: 97
+    value: 4850
+    cost: 970
+  - level: 98
+    value: 4900
+    cost: 980
+  - level: 99
+    value: 4950
+    cost: 990
+  - level: 100
+    value: 5000
+    cost: 1000

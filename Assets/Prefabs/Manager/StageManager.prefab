@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3630130543105916192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6453393865252238380}
+  - component: {fileID: 5970853584687987317}
+  - component: {fileID: 6166363348519056873}
+  m_Layer: 0
+  m_Name: StageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6453393865252238380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630130543105916192}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7116440547264692358}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5970853584687987317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630130543105916192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590ea3c65fc1d2e419db70b6a9089685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySO:
+  - {fileID: 11400000, guid: 25d138bd5caa4ce47999a4a9016aeb16, type: 2}
+  - {fileID: 11400000, guid: d8c4bb6ec9f181b41834d88d1d64c9b5, type: 2}
+  - {fileID: 11400000, guid: d102b8a9dc83f594fb3a5fb40e7babb2, type: 2}
+  - {fileID: 11400000, guid: c53bd919cad3a8f4392da529208b79fe, type: 2}
+  - {fileID: 11400000, guid: bceec914632e9174981ae1445c0c4a15, type: 2}
+  - {fileID: 11400000, guid: dd2e2011bde2b3340a05ed4ef9114672, type: 2}
+  - {fileID: 11400000, guid: e8bbfbe1facb6ae488349309fa67368a, type: 2}
+  - {fileID: 11400000, guid: 78dcfb5befd49e34aabbfb8b7954e10d, type: 2}
+  - {fileID: 11400000, guid: 5b6ca783707a8dc479c2783bb012ae6b, type: 2}
+  - {fileID: 11400000, guid: 798997ebbe05c7740980e665e5e50dd7, type: 2}
+  - {fileID: 11400000, guid: e3ed156418067c247b0e0ede39613d01, type: 2}
+  - {fileID: 11400000, guid: 371216d43d34d2041b0fa059f3afe5e0, type: 2}
+  - {fileID: 11400000, guid: 7854bca7a78687f44aee92551ce5bab3, type: 2}
+  - {fileID: 11400000, guid: ba770590b3e69864ba6faf822759cba4, type: 2}
+  stagesPerChapter: 10
+  enemyPrefab: {fileID: 1254361787763748342, guid: 2659ff9a72839f44d8ca7a2ba1d05b72, type: 3}
+  spawnPoint: {fileID: 7116440547264692358}
+  stageText: {fileID: 0}
+  enemyNameText: {fileID: 0}
+--- !u!114 &6166363348519056873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630130543105916192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f945385097ef194daec2e5ed264193f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePopupPrefab: {fileID: 5941571011279373141, guid: 88ab53d0fc61f724e9b97d071d3e1055, type: 3}
+  uiCanvas: {fileID: 0}
+  Hit: {fileID: 0}
+  CritHit: {fileID: 0}
+--- !u!1 &7557946049188627655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7116440547264692358}
+  m_Layer: 0
+  m_Name: SpawnPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7116440547264692358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557946049188627655}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6453393865252238380}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

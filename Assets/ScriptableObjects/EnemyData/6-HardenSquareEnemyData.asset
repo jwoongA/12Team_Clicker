@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711f2d8fd4437db4bab63cf847248d8f, type: 3}
+  m_Name: 6-HardenSquareEnemyData
+  m_EditorClassIdentifier: 
+  enemyName: "\uB2E8\uB2E8\uD55C \uC0AC\uAC01\uD615 \uAD34\uBB3C"
+  baseHp: 450
+  baseGold: 40
+  basePoint: 12
+  enemySprite: {fileID: 7482667652216324306, guid: 5db77d244cda8ba4d82b70714fd9d395, type: 3}
+  hitSprite: {fileID: 7482667652216324306, guid: 5db77d244cda8ba4d82b70714fd9d395, type: 3}

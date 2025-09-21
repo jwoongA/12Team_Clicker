@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8668399670872459199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9054514351876626657}
+  - component: {fileID: 2279524128035936745}
+  m_Layer: 0
+  m_Name: PlayerUpgradeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9054514351876626657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668399670872459199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2279524128035936745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668399670872459199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477d2943b72be8247aeeeef7b2a1cb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  criticalMutiplierUpgradeData: {fileID: 11400000, guid: d77d8d24bbfa5c64fa3084b32bf128fd, type: 2}
+  autoAttackSpeedUpgradeData: {fileID: 11400000, guid: 5c0f16ef295fe4f44af5aa0df648d2d4, type: 2}
+  goldMultiplierUpgradeData: {fileID: 11400000, guid: ffc0400332564de4e94d2093b7cb530a, type: 2}
+  criticalMutiplierLevel: 0
+  autoAttackSpeedLevel: 0
+  goldMultiplierLevel: 0
+  criticalMultiplierValueText: {fileID: 0}
+  criticalMultiplierCostText: {fileID: 0}
+  criticalMultiplierMaxLevelUI: {fileID: 0}
+  autoAttackSpeedValueText: {fileID: 0}
+  autoAttackSpeedCostText: {fileID: 0}
+  autoAttackSpeedMaxLevelUI: {fileID: 0}
+  goldMultiplierValueText: {fileID: 0}
+  goldMultiplierCostText: {fileID: 0}
+  goldMultiplierMaxLevelUI: {fileID: 0}
+  btnClick: {fileID: 0}

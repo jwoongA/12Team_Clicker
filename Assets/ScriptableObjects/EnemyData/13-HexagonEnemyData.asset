@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711f2d8fd4437db4bab63cf847248d8f, type: 3}
+  m_Name: 13-HexagonEnemyData
+  m_EditorClassIdentifier: 
+  enemyName: "\uC5C4-\uBE0C\uB810\uB77C \uCF54\uD37C\uC2A4"
+  baseHp: 7800
+  baseGold: 280
+  basePoint: 120
+  enemySprite: {fileID: 2747690628134850419, guid: c7762cd1ef9036e4d94952b889354e9c, type: 3}
+  hitSprite: {fileID: 2747690628134850419, guid: c7762cd1ef9036e4d94952b889354e9c, type: 3}
